@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sunny Cakes - Contato</title>
+
+  <meta name="description" content="Peça bolos caseiros para o seu momento especial. Temos bolo salgado, bolo de festa e docinhos. Estamos localizados no Tatuapé - São Paulo.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sunny Cakes - Contato">
+  <meta property="og:description" content="Peça bolos caseiros para o seu momento especial. Temos bolo salgado, bolo de festa e docinhos. Estamos localizados no Tatuapé - São Paulo.">
+  <meta property="og:url" content="http://sunnycakes.com.br/contato.html">
+  <meta property="og:image" content="http://sunnycakes.com.br/img/og-image.png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut ion" href="favicon.ico">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4">
+        <img src="img/sunnycakes.png" alt="logo sunny cakes" width="100" height="100">
+      </a>
+      <nav class="grid-12 header_menu">
+        <ul>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contato.html" class="menu_ativo">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="introducao-interna interna_contato">
+    <div class="container">
+      <h1>Contato</h1>
+      <p>Tire suas dúvidas com a gente</p>
+    </div>
+  </section>
+
+  <section class="contato container">
+    <form id="form_orcamento" method="POST" action="./enviar.php" class="contato_form grid-8 formphp">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required>
+      <label for="telefone">Telefone</label>
+      <input type="text" id="telefone" name="telefone">
+
+      <label class="nao-aparece">Se você não é um robô, deixe em branco. </label>
+      <input type="text" class="nao-aparece" name="leaveblank">
+      <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+      <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+      <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+    </form>
+
+    <div class="contato_dados grid-8">
+      <h3>Dados</h3>
+      <span>+55 11 2389-6544</span>
+      <span class="dados_email">orcamento@sunnycakes.com.br</span>
+      <span>Rua Ali perto - Tatuapé</span>
+      <span>São Paulo - SP</span>
+      <h3>Redes sociais</h3>
+      <ul>
+        <li><a href="http://facebook.com" target="_blank"><img src="img/redes sociais/facebook-rosa.svg" alt="facebook"></a></li>
+        <li><a href="http://instagram.com" target="_blank"><img src="img/redes sociais/instagram-rosa.svg" alt="instagram"></a></li>
+        <li><a href="http://twitter.com" target="_blank"><img src="img/redes sociais/twitter-rosa.svg" alt="twitter"></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="container contato_mapa">
+    <a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-sunnycakes.jpg" alt="Endereço da Sunny Cakes"></a>
+  </section>
+
+  <div class="quebra">
+    <blockquote class="quote-externo container">
+      <p>"Cozinhar pode ser uma forma de se conectar com o outro, estreitando relações e expressando amor e cuidado entre aquele que produz o alimento e aquele que o consome".</p>
+      <cite>ANA CLÁUDIA MAZZONETTO, MOIRA DEAN, GIOVANNA MEDEIROS RATAICHESCK FIATES</cite>
+    </blockquote>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="grid-8 footer_historia">
+          <h3>Nossa História</h3>
+          <p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana. Interesse por todos os detalhes da vida cotidiana.</p>
+        </div>
+
+        <div class="grid-4 footer_contato">
+          <h3>Contato</h3>
+          <ul>
+            <li>11 3981-0945</li>
+            <li>contato@sunnycakes.com.br</li>
+            <li>Belenzinho - São Paulo</li>
+          </ul>
+        </div>
+
+        <div class="grid-4 footer_redes">
+          <h3>Redes sociais</h3>
+          <ul>
+            <li><a href="http://facebook.com" target="_blank"><img src="img/redes sociais/facebook.svg" alt="facebook"></a></li>
+            <li><a href="http://instagram.com" target="_blank"><img src="img/redes sociais/instagram.svg" alt="instagram"></a></li>
+            <li><a href="http://twitter.com" target="_blank"><img src="img/redes sociais/twitter.svg" alt="twitter"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">Cakes Sunny 2021 - Alguns direitos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/simple-form.js"></script>
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>
